@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/MaterialAlertDialog.Material3.Title.Text">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:text="SIM toolkit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="34sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/send_money"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:text="Send Money"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+
+    <Button
+        android:id="@+id/withdraw_cash"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="Withdraw Cash"
+        android:padding="15dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        android:id="@+id/buy_airtime"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Buy Airtime"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        android:id="@+id/loan_saving"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Loan and Savings"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        android:id="@+id/lipa_mpesa"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="Lipa na mpesa"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        android:id="@+id/my_account"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="My account"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+</LinearLayout>

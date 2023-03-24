@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MaterialAlertDialog.Material3.Title.Text">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:text="M-Banking Services"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="34sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:text="Barclay Bank"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="Co-op Bank"
+        android:padding="15dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="DTB"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="EcoBank"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Equity Bank"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Family Bank"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Faulu DTM"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="First Community"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="I&amp;M Bank "
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="More.. "
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?android:textColorPrimary" />
+</LinearLayout>
